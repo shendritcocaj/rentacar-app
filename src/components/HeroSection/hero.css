@@ -53,7 +53,7 @@
 }
 
 .plus {
-  color: #37a237;
+  color: goldenrod;
 }
 
 .roberti {
@@ -140,10 +140,10 @@
 /**************************/
 
 @media (max-width: 34em) {
-  /* .hero-main {
+  .hero-main {
     position: relative;
-    height: 65vh;
-  } */
+    height: 50rem;
+  }
 
   .hero-title {
     position: absolute;

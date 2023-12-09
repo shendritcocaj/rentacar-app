@@ -1,0 +1,226 @@
+.hero-main {
+  position: relative;
+  height: 60vh;
+  background-image: url("../../assets/back.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.hero-main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-title {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-title-top {
+  color: whitesmoke;
+  font-size: 8rem;
+  text-align: center;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+
+.stats {
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  gap: 13rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: #d4d3d3;
+}
+
+.plus {
+  color: #37a237;
+}
+
+.roberti {
+  letter-spacing: 2rem;
+  font-weight: bold;
+  font-size: 10rem;
+  color: #37a237;
+}
+
+.hero-partners {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: rgb(184, 184, 184);
+}
+
+.subtitle {
+  color: whitesmoke;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80dvh;
+  object-fit: cover;
+  background-color: rgba(0, 0, 0, 0.536);
+} */
+
+.rezervo-veturen {
+  display: none;
+  font-size: 2.3rem;
+  margin: 5rem auto;
+  padding: 1rem 4rem;
+  border: 1px solid #37a237;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.339);
+  color: #37a237;
+  transition: 0.3s;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.rezervo-veturen:hover {
+  background-color: #37a237;
+  transform: scale(1.1);
+  color: #fff;
+}
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+@media (max-width: 75em) {
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  /* .hero-title-top,
+  .roberti {
+    padding-bottom: 3rem;
+    letter-spacing: 2px;
+  } */
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+  /* .hero-title-top,
+  .roberti {
+    font-size: 6rem;
+  } */
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  .hero-main {
+    position: relative;
+    height: 65vh;
+  }
+
+  .hero-title {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-title-top,
+  .roberti {
+    font-size: 5rem;
+  }
+  .roberti {
+    font-size: 6rem;
+  }
+
+  .stats {
+    gap: 8rem;
+  }
+
+  .rezervo-veturen {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .hero-title-top {
+    font-size: 4rem;
+  }
+
+  .roberti {
+    letter-spacing: 1.2rem;
+    font-weight: bold;
+    font-size: 5rem;
+    color: #37a237;
+  }
+
+  .rezervo-veturen {
+    font-size: 1.8rem;
+  }
+
+  .stats {
+    gap: 6rem;
+  }
+
+  .stat {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 265px) {
+  .hero-title-top {
+    font-size: 3rem;
+  }
+
+  .roberti {
+    letter-spacing: 1rem;
+    font-weight: bold;
+    font-size: 4rem;
+    color: #37a237;
+  }
+  .stats {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .stat {
+    font-size: 3rem;
+  }
+
+  .rezervo-veturen {
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+  }
+}

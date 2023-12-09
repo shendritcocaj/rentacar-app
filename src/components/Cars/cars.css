@@ -11,7 +11,7 @@
 .cars-title {
   font-size: 3rem;
   letter-spacing: 0.5rem;
-  color: #37a237;
+  color: #a29d37;
   padding-top: 4rem;
   padding-bottom: 4rem;
   text-align: center;
@@ -203,13 +203,13 @@
 
 @media only screen and (max-width: 650px) {
   .car {
-    width: 70% !important;
+    width: 40rem !important;
     margin: 0 auto !important;
   }
 }
 @media only screen and (max-width: 430px) {
   .car {
-    width: 90% !important;
+    width: 30rem !important;
     margin: 0 auto !important;
   }
 }

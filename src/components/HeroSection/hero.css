@@ -27,7 +27,7 @@
 }
 
 .hero-title-top {
-  color: whitesmoke;
+  color: goldenrod;
   font-size: 8rem;
   text-align: center;
   letter-spacing: 5px;
@@ -140,10 +140,10 @@
 /**************************/
 
 @media (max-width: 34em) {
-  .hero-main {
+  /* .hero-main {
     position: relative;
     height: 65vh;
-  }
+  } */
 
   .hero-title {
     position: absolute;

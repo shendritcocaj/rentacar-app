@@ -22,8 +22,8 @@
 .contact-title {
   font-size: 3rem;
   letter-spacing: 0.5rem;
-  color: #37a237;
-  padding-top: 4rem;
+  color: #000d6b;
+  padding-top: 10rem;
   padding-bottom: 4rem;
   text-align: center;
 }
@@ -65,24 +65,24 @@
   border-radius: 1rem;
   box-shadow: #cfcfcf 0px 0px 10px;
   padding: 2rem 4rem;
-  background-color: #f0eded;
+  /* background-color: #f0eded; */
   transition: 0.4s;
 }
 
 .contact-card:hover {
-  box-shadow: #37a237 0px 0px 10px;
+  box-shadow: #000d6b 0px 0px 10px;
 }
 
 .uil-envelope-minus,
 .uil-whatsapp,
 .uil-facebook-messenger-alt {
   font-size: 5rem;
-  color: #37a237;
+  color: #000d6b;
 }
 
 .contact-card-title {
   font-size: 2rem;
-  color: #555;
+  color: #000d6b;
 }
 
 .mesenger {
@@ -103,14 +103,12 @@
   gap: 0.5rem;
   padding-left: 1.3rem;
   font-size: 1.8rem;
-  color: #999;
   font-weight: 500;
   transition: 0.4s;
-
   color: #000;
 }
 .contact-button:hover {
-  color: #37a237;
+  color: #000d6b;
 }
 
 .contact-button-icon {
@@ -119,7 +117,7 @@
 
 .contact-button:hover .contact-button-icon {
   transform: translatex(0.4rem);
-  color: #37a237;
+  color: goldenrod;
 }
 
 .uil-arrow-right {
@@ -151,9 +149,9 @@
   top: -1.2rem;
   left: 5rem;
   font-size: 1.6rem;
-  color: #37a237;
+  color: #000d6b;
   font-weight: 500;
-  background-color: #efebeb;
+  background-color: #fff;
   z-index: 10;
   padding: 0 1rem;
 }
@@ -180,7 +178,7 @@
   padding: 1.2rem 6rem;
   font-size: 1.6rem;
   color: #000;
-  border: 2px solid #37a237;
+  border: 2px solid #000d6b;
   border-radius: 1rem;
   cursor: pointer;
   width: 100%;
@@ -190,7 +188,7 @@
 }
 
 .contact-form-input:hover {
-  box-shadow: #37a237 0px 0px 6px;
+  box-shadow: #000d6b 0px 0px 6px;
 }
 
 .contact-form-input::placeholder {
@@ -198,7 +196,7 @@
 }
 
 .form-button button:hover {
-  background-color: #37a237;
+  background-color: #000d6b;
   color: #fff;
 }
 

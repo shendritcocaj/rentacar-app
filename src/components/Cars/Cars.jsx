@@ -47,59 +47,62 @@ const Cars = () => {
         </div>
         <div className="cars">
           {filteredCars.slice(0, visibleCars).map((car, i) => (
-            <Link to={`/cars/${car.id}`} key={i} className="car-link">
-              <div key={i} className="car">
-                {car.mostWanted && (
-                  <div className="mostWanded">Me i kerkuari</div>
-                )}
-                {car.economic && (
-                  <div className="mostWanded economic">Ekonomik</div>
-                )}
-                <div className="top-info">
-                  <div className="car-name">
-                    {car.brand}
-                    <p
+            // <Link to={`/cars/${car.id}`} key={i} className="car-link">
+            <div key={i} className="car">
+              {car.mostWanted && (
+                <div className="mostWanded">Me i kerkuari</div>
+              )}
+              {car.economic && (
+                <div className="mostWanded economic">Ekonomik</div>
+              )}
+              <div className="top-info">
+                <div className="car-name">
+                  {car.brand}
+                  <p
+                    className={
+                      car.mostWanted || car.economic
+                        ? "car-year true"
+                        : "car-year"
+                    }
+                  >
+                    <span
                       className={
                         car.mostWanted || car.economic
-                          ? "car-year true"
-                          : "car-year"
+                          ? "car-year-text"
+                          : "car-year-text text-true"
                       }
                     >
-                      <span
-                        className={
-                          car.mostWanted || car.economic
-                            ? "car-year-text"
-                            : "car-year-text text-true"
-                        }
-                      >
-                        Viti
-                      </span>
-                      <span className="car-year-number">{car.year}</span>
-                    </p>
-                  </div>
-                  <div className="price">
-                    {car.price}
-                    <span className="car-hours">/24h</span>{" "}
-                  </div>
+                      Viti
+                    </span>
+                    <span className="car-year-number">{car.year}</span>
+                  </p>
                 </div>
-                <img src={car.images[0].url} alt={`Car ${i}`} />
-
-                <div className="bottom-info">
-                  <div className="marshi">
-                    <i className="uil uil-streering car-icon"></i>
-                    <span>{car.transmission}</span>
-                  </div>
-                  <div className="type">
-                    <i className="uil uil-car car-icon-car"></i>
-                    <span>{car.doors} Dyer</span>
-                  </div>
-                  <div className="shpenzimet">
-                    <i className="uil uil-pump car-icon"></i>
-                    <span>{car.expenses}</span>
-                  </div>
+                <div className="price">
+                  {car.price}
+                  <span className="car-hours">/24h</span>{" "}
                 </div>
               </div>
-            </Link>
+              <img src={car.images[0].url} alt={`Car ${i}`} />
+
+              <div className="bottom-info">
+                <div className="marshi">
+                  <i className="uil uil-streering car-icon"></i>
+                  <span>{car.transmission}</span>
+                </div>
+                <div className="type">
+                  <i className="uil uil-car car-icon-car"></i>
+                  <span>{car.doors} Dyer</span>
+                </div>
+                <div className="shpenzimet">
+                  <i className="uil uil-pump car-icon"></i>
+                  <span>{car.expenses}</span>
+                </div>
+              </div>
+              <Link to={`/cars/${car.id}`} key={i} className="car-details-link">
+                Rezervo
+              </Link>
+            </div>
+            // </Link>
           ))}
         </div>
         {visibleCars < filteredCars.length && (

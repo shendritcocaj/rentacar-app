@@ -11,9 +11,9 @@
 .cars-title {
   font-size: 3rem;
   letter-spacing: 0.5rem;
-  color: #37a237;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  color: #000d6b;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   text-align: center;
 }
 
@@ -36,19 +36,21 @@
 }
 
 .expenses {
-  padding: 0.7rem 1rem;
+  padding: 1rem 1rem;
   font-size: 1.6rem;
-  color: #000;
-  border: 2px solid #37a237;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #fff;
+  background-color: #000d6b;
   border-radius: 5px;
   transition: 0.3s;
   cursor: pointer;
-  width: 12rem;
+  width: 13rem;
   text-align: center;
 }
 
 .expenses:hover {
-  background-color: #1a711a;
+  background-color: goldenrod;
   color: #fff;
 }
 
@@ -63,13 +65,13 @@
 }
 
 .car {
-  border: none;
+  border: 1px solid rgba(126, 125, 125, 0.245);
   border-radius: 10px;
   box-shadow: rgba(128, 127, 127, 0.666) 0px 3px 5px;
-  background-color: #e8fae816;
+  /* background-color: #e8fae816; */
   padding: 2rem 3rem;
   width: 40rem;
-  height: 40rem;
+  /* height: 40rem; */
   transition: 0.5s;
   display: flex;
   flex-direction: column;
@@ -108,8 +110,30 @@
 }
 
 .car:hover {
-  transform: scale(1.05);
-  box-shadow: #ade3ad69 0px 5px 10px;
+  transform: scale(1.02);
+  box-shadow: #535fb9 0px 5px 10px;
+}
+
+.car-details-link {
+  padding: 1rem 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fff;
+  /* border: 2px solid #000d6b; */
+  background-color: #000d6b;
+  border-radius: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+  letter-spacing: 5px;
+  width: 100%;
+  text-align: center;
+  margin: 3rem 0 1rem 0;
+}
+
+.car-details-link:hover {
+  background-color: goldenrod;
+  /* border-color: goldenrod; */
+  color: #fff;
 }
 
 .car-name,
@@ -136,6 +160,7 @@
 .bottom-info {
   display: flex;
   justify-content: space-between;
+  margin-top: 2rem;
 }
 
 .marshi,
@@ -150,7 +175,7 @@
 
 .car-icon {
   font-size: 2.5rem;
-  color: #37a237;
+  color: #000d6b;
 }
 
 .car-icon-car {
@@ -163,21 +188,21 @@
 }
 
 .show-more {
-  padding: 0.7rem 1rem;
-  font-size: 1.6rem;
-  color: #000;
-  border: 2px solid #37a237;
+  padding: 1.2rem 1rem;
+  font-size: 1.8rem;
+  color: #fff;
+  background-color: #000d6b;
   border-radius: 5px;
   transition: 0.3s;
   cursor: pointer;
-  width: 12rem;
+  width: 14rem;
   text-align: center;
   margin: 0 auto;
   margin-top: 8rem;
 }
 
 .show-more:hover {
-  background-color: #1a711a;
+  background-color: goldenrod;
   color: #fff;
 }
 
@@ -196,25 +221,26 @@
 }
 
 .economic {
-  background-color: #37a237;
+  background-color: #000d6b;
   top: 40px;
   padding: 0.2rem 6rem;
 }
 
 @media only screen and (max-width: 650px) {
   .car {
-    width: 40rem !important;
+    width: 45rem !important;
     margin: 0 auto !important;
   }
 }
 @media only screen and (max-width: 430px) {
   .car {
-    width: 30rem !important;
+    width: 35rem !important;
     margin: 0 auto !important;
   }
 }
-/* @media only screen and (max-width: 300px) {
+@media only screen and (max-width: 330px) {
   .car {
-    width: 25rem;
+    width: 28rem !important;
+    margin: 0 auto !important;
   }
-} */
+}

@@ -23,9 +23,9 @@ html {
   position: relative;
   top: -8rem;
 }
-
+/* background color  #efebeb; */
 body {
-  background-color: #efebeb;
+  background-color: #fff;
   font-family: "Poppins", sans-serif;
 }
 

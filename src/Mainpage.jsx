@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Cars from "./components/Cars/Cars";
 import Questions from "./components/Questions/Questions";
 import Contact from "./components/Contact/Contact";
-import Location from "./components/Location/Location";
+import Testimonial from "./components/Testimonials/Testimonial";
 import Footer from "./components/Footer/Footer";
 
 function Mainpage() {
@@ -14,7 +14,7 @@ function Mainpage() {
       <Hero />
       <Cars />
       <Questions />
-      <Location />
+      <Testimonial />
       <Contact />
       <Footer />
     </div>

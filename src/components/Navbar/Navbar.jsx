@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import logo from "../../assets/logoimg.png";
+import logo from "../../assets/logogold.png";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -15,7 +15,7 @@ const Navbar = () => {
       <motion.nav className="nav">
         <div className="logo-wrapper">
           <motion.img
-            animate={{ x: 200 }}
+            animate={{ x: 0 }}
             initial={{ x: -80, opacity: 0 }}
             exit={{ x: 200, opacity: 1 }}
             transition={{ duration: 1.6 }}
@@ -24,9 +24,9 @@ const Navbar = () => {
             src={logo}
             alt="logo"
           ></motion.img>
-          <a href="#" className="logo-text">
-            Rent a Car ROBERTI
-          </a>
+          {/* <a href="#" className="logo-text">
+            <img src={logo} alt="" />
+          </a> */}
         </div>
         <div className={menu ? "nav-menu show-menu" : "nav-menu"}>
           <ul className="nav-list">

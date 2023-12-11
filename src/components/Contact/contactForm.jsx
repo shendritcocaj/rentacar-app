@@ -1,25 +1,31 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const contactForm = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
+
     emailjs
       .sendForm(
-        "service_ovdixnu",
-        "template_cg9ny1m",
+        "service_f6nla1o",
+        "template_ktp5uaz",
         form.current,
-        "kICO628dZkkGJpvd_"
+        "mENc7MvHLrEjz4iwE"
       )
       .then(
         (result) => {
           console.log(result.text);
-          e.target.reset();
+          toast.success("Message sent successfully!");
+
+          form.current.reset();
         },
         (error) => {
           console.log(error.text);
+          toast.error("Error sending message. Please try again later.");
         }
       );
   };
@@ -27,7 +33,6 @@ const contactForm = () => {
   return (
     <div className="contact-info form">
       {" "}
-      {/* <div className="contact-content-title">Sheno ne email</div> */}
       <form ref={form} className="contact-form" onSubmit={sendEmail}>
         <div className="contact-form-div">
           <label htmlFor="" className="contact-form-name">
@@ -35,20 +40,9 @@ const contactForm = () => {
           </label>
           <input
             type="text"
-            name="user_name"
+            name="from_name"
             className="contact-form-input"
             placeholder="Shkuaj Emrin"
-          />
-        </div>
-        <div className="contact-form-div">
-          <label htmlFor="" className="contact-form-name">
-            Emaili
-          </label>
-          <input
-            type="email"
-            name="user_email"
-            className="contact-form-input"
-            placeholder="Shkuaj Emailin"
           />
         </div>
         <div className="contact-form-div">
@@ -57,11 +51,23 @@ const contactForm = () => {
           </label>
           <input
             type="number"
-            name="user_number"
+            name="from_mobile"
             className="contact-form-input"
             placeholder="Shkuaj Numrin"
           />
         </div>
+        <div className="contact-form-div">
+          <label htmlFor="" className="contact-form-name">
+            Emaili
+          </label>
+          <input
+            type="email"
+            name="from_email"
+            className="contact-form-input"
+            placeholder="Shkuaj Emailin"
+          />
+        </div>
+
         <div className="contact-form-div">
           <label htmlFor="" className="contact-form-name">
             Mesazhi
@@ -78,6 +84,17 @@ const contactForm = () => {
           <button type="submit">Send</button>
         </div>
       </form>
+      <ToastContainer
+        position="top-center"
+        autoClose={5000} // Close the notification after 5 seconds
+        hideProgressBar
+        newestOnTop
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
     </div>
   );
 };

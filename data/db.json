@@ -17,7 +17,7 @@
     },
     {
       "id": 102,
-      "images": [{ "url": "/carsImages/audia4.png" }],
+      "images": [{ "url": "/carsImages/skodafabia.png" }],
       "brand": "Skoda",
       "model": "Skoda Fabia",
       "doors": 4,
@@ -32,7 +32,7 @@
     },
     {
       "id": 103,
-      "images": [{ "url": "/carsImages/audia4.png" }],
+      "images": [{ "url": "/carsImages/opelcorsa.png" }],
       "brand": "Opel",
       "model": "Opel Corsa",
       "doors": 4,

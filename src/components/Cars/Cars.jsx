@@ -66,7 +66,7 @@ const Cars = () => {
               )}
               <div className="top-info">
                 <div className="car-name">
-                  {car.brand}
+                  {car.model}
                   <p
                     className={
                       car.mostWanted || car.economic
@@ -87,8 +87,8 @@ const Cars = () => {
                   </p>
                 </div>
                 <div className="price">
-                  {car.price}
-                  <span className="car-hours">€/24h</span>{" "}
+                  €{car.price}
+                  <span className="car-hours">/24h</span>{" "}
                 </div>
               </div>
               <img src={car.images[0].url} alt={`Car ${i}`} />

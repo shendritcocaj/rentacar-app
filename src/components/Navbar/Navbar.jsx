@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import logo from "../../assets/logogold.png";
+import logo1 from "../../assets/logoroberti.png";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -21,7 +22,7 @@ const Navbar = () => {
             transition={{ duration: 1.6 }}
             whileInView={{ opacity: 1 }}
             className="nav-logo"
-            src={logo}
+            src={logo1}
             alt="logo"
           ></motion.img>
           {/* <a href="#" className="logo-text">

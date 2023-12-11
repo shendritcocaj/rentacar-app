@@ -13,9 +13,9 @@ const TestimonialSlider = () => {
       <div className="gap-testimonal">
         <div className="testimonial">
           <p className="section__description">
-            "Përdora shërbimin e 'Rent a Car ROBERTI' dhe isha shumë e kënaqur.
+            "Përdora shërbimin e 'Rent a Car ROBERTI' dhe isha shumë i kënaqur.
             Automjeti ishte i pastër dhe në gjendje të mirë teknike. Përveç
-            kësaj, shërbimi ndaj klientëve ishte i shkëlqyeshëm.Jame e sigurt qe
+            kësaj, shërbimi ndaj klientëve ishte i shkëlqyeshëm.Jame i sigurt qe
             do ti përdor shërbimet e tyre përsëri!"
           </p>
           <div className="testimonial-img">
@@ -45,7 +45,7 @@ const TestimonialSlider = () => {
 
         <div className="testimonial">
           <p className="section__description">
-            "Morra një makinë tek 'Rent a Car ROBERTI'.Isha e kënaqur
+            "Morra një makinë tek 'Rent a Car ROBERTI'.Isha i kënaqur
             plotësisht. Automjeti ishte në gjendje të shkëlqyeshme, shërbimi
             shpejtë dhe profesionist, dhe çmimi ishte i arsyeshëm. Sigurisht do
             tia sygjeroja te gjithve këtë kompani për udhëtimet e tyre."

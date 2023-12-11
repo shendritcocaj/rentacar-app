@@ -81,6 +81,11 @@
   position: relative;
 }
 
+.car img {
+  width: 340px;
+  height: 170px;
+}
+
 .price {
   color: #1a711a;
 }

@@ -1,5 +1,5 @@
 #contact {
-  padding-top: 8rem;
+  padding-top: 12rem;
   padding-bottom: 15rem;
   max-width: 1900px;
   margin: 0 auto;
@@ -70,7 +70,7 @@
 }
 
 .contact-card:hover {
-  box-shadow: #000d6b 0px 0px 10px;
+  box-shadow: #535fb9 0px 0px 10px;
 }
 
 .uil-envelope-minus,
@@ -166,6 +166,7 @@
   border-radius: 1rem;
   color: #777;
   font-weight: 500;
+  transition: 0.3s;
 }
 
 .form-button {
@@ -176,19 +177,18 @@
   bottom: 0;
   right: 0;
   padding: 1.2rem 6rem;
-  font-size: 1.6rem;
-  color: #000;
-  border: 2px solid #000d6b;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  color: #fff;
+  background-color: #000d6b;
   border-radius: 1rem;
   cursor: pointer;
-  width: 100%;
   margin: 0 auto;
-  background-color: transparent;
   transition: 0.4s;
 }
 
 .contact-form-input:hover {
-  box-shadow: #000d6b 0px 0px 6px;
+  box-shadow: #535fb9 0px 0px 10px;
 }
 
 .contact-form-input::placeholder {
@@ -196,7 +196,7 @@
 }
 
 .form-button button:hover {
-  background-color: #000d6b;
+  background-color: goldenrod;
   color: #fff;
 }
 

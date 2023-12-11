@@ -34,7 +34,7 @@ const contactInfo = () => {
         <h3 className="contact-card-title mesenger">Messenger</h3>
         <span className="contact-card-data">Rent a car Roberti</span>
         <a
-          href="https://m.me/roberti"
+          href="https://m.me/rentacarroberti"
           rel="noreferrer"
           target="_blank"
           className="contact-button"

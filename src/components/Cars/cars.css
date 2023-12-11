@@ -59,6 +59,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: flex-start;
   gap: 6rem;
   column-gap: 6rem;
   padding-top: 4rem;
@@ -111,7 +112,7 @@
 
 .car:hover {
   transform: scale(1.02);
-  box-shadow: #535fb9 0px 5px 10px;
+  box-shadow: #535fb9 0px 0px 10px;
 }
 
 .car-details-link {
@@ -221,7 +222,7 @@
 }
 
 .economic {
-  background-color: #000d6b;
+  background-color: #1a711a;
   top: 40px;
   padding: 0.2rem 6rem;
 }

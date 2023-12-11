@@ -19,11 +19,15 @@ const Footer = () => {
           </div>{" "}
           <div className="insta-fb">
             {" "}
-            <a href="" className="home-social-icon footer-icon" target="_blank">
+            <a
+              href="https://www.instagram.com/rentacar.roberti/"
+              className="home-social-icon footer-icon"
+              target="_blank"
+            >
               <i className="uil uil-instagram"></i>
             </a>
             <a
-              href=""
+              href="https://www.facebook.com/rentacarroberti/"
               className="home-social-icon  footer-icon"
               target="_blank"
             >

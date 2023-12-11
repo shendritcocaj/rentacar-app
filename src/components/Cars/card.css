@@ -1,0 +1,230 @@
+/* car modal */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999999;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 90%;
+  height: 60%;
+  position: relative;
+}
+
+.close-modal {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  font-size: 39px;
+  cursor: pointer;
+  color: red;
+}
+/* car modal */
+
+.card {
+  height: 80%;
+  display: flex;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+/* left card */
+.leftcard {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.card-title {
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+  color: #000d6b;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+
+.leftcard img {
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.car-model {
+  margin: 0 auto;
+  color: goldenrod;
+}
+
+/* card right */
+
+.card-container {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  padding-top: 5px;
+  font-size: 2rem;
+}
+
+.card-info {
+  height: 100%;
+  display: flex;
+}
+
+.card-car-details {
+  color: #555;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  font-size: 3rem;
+}
+.card-car-details p {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  border-bottom: 1px solid #424da079;
+  color: #041590;
+}
+
+.card-car-price {
+  color: goldenrod !important;
+  border-bottom: none !important;
+  font-weight: 500;
+}
+.price-modal {
+  font-size: 3rem;
+}
+/* card bottom */
+
+.card-contact-info {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-top: 4px solid rgba(180, 178, 178, 0.235);
+}
+
+.card-contact-button,
+.card-contact-button-messenger {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.card-contact-button:hover,
+.card-contact-button-messenger:hover {
+  transform: scale(1.05);
+}
+
+.card-car-icon {
+  color: #000d6b;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.modalicon-email {
+  color: rgb(87, 166, 230) !important;
+}
+.modalicon-messenger {
+  color: #0066ff !important;
+}
+.modalicon-whatsapp {
+  color: #37a237 !important;
+}
+
+@media only screen and (min-width: 1600px) {
+  .modal-content {
+    height: 70%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .card-car-details p {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (max-width: 930px) {
+  .card-car-details p {
+    gap: 0.5rem;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .modal-content {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .card-container {
+    width: 100%;
+  }
+  .card {
+    padding: 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .leftcard {
+    width: 100%;
+  }
+  .card-car-details p {
+    gap: 2rem;
+    margin-bottom: 1rem;
+    border: none;
+  }
+
+  .card-title {
+    width: 90%;
+  }
+
+  .card-title {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .card-car-details p {
+    gap: 2rem;
+  }
+
+  .card-title {
+    font-size: 3rem;
+  }
+
+  .card-car-details p {
+    font-size: 2rem;
+  }
+  .card-car-price {
+    font-size: 2rem;
+  }
+
+  .price-modal {
+    font-size: 2.5rem;
+  }
+
+  .modalicon-email,
+  .modalicon-messenger,
+  .modalicon-whatsapp {
+    font-size: 4rem !important;
+  }
+
+  .card-contact-button,
+  .card-contact-button-messenger {
+    margin-top: 1px;
+  }
+}

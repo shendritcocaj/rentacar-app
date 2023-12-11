@@ -60,20 +60,10 @@ const Navbar = () => {
               className="nav-item"
             >
               <a href="#Questions" className="nav-link" onClick={closeMenu}>
-                <i className="uil uil-info-circle nav-icon"></i> Info
+                <i className="uil uil-info-circle nav-icon"></i> Informata
               </a>
             </motion.li>
-            <motion.li
-              animate={{ x: 0 }}
-              initial={{ x: -80, opacity: 0 }}
-              transition={{ duration: 0.8 }}
-              whileInView={{ opacity: 1 }}
-              className="nav-item"
-            >
-              <a href="#location" className="nav-link" onClick={closeMenu}>
-                <i className="uil uil-info-circle nav-icon"></i> Lokacioni
-              </a>
-            </motion.li>
+
             <motion.li
               animate={{ x: 0 }}
               initial={{ x: -80, opacity: 0 }}

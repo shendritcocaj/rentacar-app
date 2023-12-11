@@ -3,13 +3,23 @@ import carsData from "../../../data/db.json";
 import "./cars.css";
 import { Link } from "react-router-dom";
 
+import CarModal from "./CarModal";
+
 const Cars = () => {
   const [selectedType, setSelectedType] = useState(null);
+  const [selectedCar, setSelectedCar] = useState(null);
   const [visibleCars, setVisibleCars] = useState(8);
 
   const handleFilter = (brand) => {
     setSelectedType(brand);
     setVisibleCars(8);
+  };
+  const openModal = (car) => {
+    setSelectedCar(car);
+  };
+
+  const closeModal = () => {
+    setSelectedCar(null);
   };
 
   const loadMore = () => {
@@ -32,8 +42,8 @@ const Cars = () => {
           <p className="expenses" onClick={() => handleFilter("Audi")}>
             Audi
           </p>
-          <p className="expenses" onClick={() => handleFilter("Mercedes")}>
-            Mercedes
+          <p className="expenses" onClick={() => handleFilter("Dacia")}>
+            Dacia
           </p>
           <p className="expenses" onClick={() => handleFilter("Volkswagen")}>
             Volkswagen
@@ -47,7 +57,6 @@ const Cars = () => {
         </div>
         <div className="cars">
           {filteredCars.slice(0, visibleCars).map((car, i) => (
-            // <Link to={`/cars/${car.id}`} key={i} className="car-link">
             <div key={i} className="car">
               {car.mostWanted && (
                 <div className="mostWanded">Me i kerkuari</div>
@@ -79,7 +88,7 @@ const Cars = () => {
                 </div>
                 <div className="price">
                   {car.price}
-                  <span className="car-hours">/24h</span>{" "}
+                  <span className="car-hours">€/24h</span>{" "}
                 </div>
               </div>
               <img src={car.images[0].url} alt={`Car ${i}`} />
@@ -98,11 +107,14 @@ const Cars = () => {
                   <span>{car.expenses}</span>
                 </div>
               </div>
-              <Link to={`/cars/${car.id}`} key={i} className="car-details-link">
+              <Link
+                to="#"
+                onClick={() => openModal(car)}
+                className="car-details-link"
+              >
                 Rezervo
               </Link>
             </div>
-            // </Link>
           ))}
         </div>
         {visibleCars < filteredCars.length && (
@@ -110,6 +122,11 @@ const Cars = () => {
             Me Shume
           </button>
         )}
+        <CarModal
+          isOpen={selectedCar !== null}
+          onClose={closeModal}
+          car={selectedCar}
+        />
       </div>
     </div>
   );

@@ -22,7 +22,7 @@ const contactInfo = () => {
       >
         <i className="uil uil-whatsapp"></i>
         <h3 className="contact-card-title">Whatsapp</h3>
-        <span className="contact-card-data"> 049 518 518</span>
+        <span className="contact-card-data"> +383 49 518 518</span>
       </a>
       <a
         href="https://m.me/rentacarroberti"

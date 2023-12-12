@@ -15,7 +15,7 @@ const Hero = () => {
             className="hero-title-top"
           >
             Rezervo
-            <br /> duke filluar me <span className="hero-price">20$</span>
+            <br /> duke filluar me <span className="hero-price">20€</span>
           </motion.div>
 
           <a href="#veturat" className="rezervo-veturen">

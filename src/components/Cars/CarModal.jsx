@@ -37,46 +37,44 @@ const CarModal = ({ isOpen, onClose, car }) => {
             </div>
             <div className="card-container">
               {" "}
-              <div className="card-info">
-                <div className="card-car-details">
-                  <p>
-                    {" "}
-                    <span className="details-into car-model">{car.model}</span>
-                  </p>
+              <div className="card-car-details">
+                <p>
+                  {" "}
+                  <span className="details-into car-model">{car.model}</span>
+                </p>
 
-                  <p>
-                    <span>Motori: </span>
-                    <span className="details-into">{car.engine}</span>
-                  </p>
-                  <p>
-                    <span>Karburanti: </span>
-                    <span className="details-into">{car.fuel}</span>
-                  </p>
+                <p>
+                  <span>Motori: </span>
+                  <span className="details-into">{car.engine}</span>
+                </p>
+                <p>
+                  <span>Karburanti: </span>
+                  <span className="details-into">{car.fuel}</span>
+                </p>
 
-                  <p>
-                    <span>Marshi: </span>
-                    <span className="details-into">{car.transmission}</span>
-                  </p>
-                  <p>
-                    <span>Numri i dyerve: </span>
-                    <span className="details-into">{car.doors}</span>
-                  </p>
+                <p>
+                  <span>Marshi: </span>
+                  <span className="details-into">{car.transmission}</span>
+                </p>
+                <p>
+                  <span>Numri i dyerve: </span>
+                  <span className="details-into">{car.doors}</span>
+                </p>
 
-                  <p>
-                    <span>Viti: </span>
-                    <span className="details-into">{car.year}</span>
-                  </p>
-                  <p className="card-car-price">
-                    <span>Fillon nga: </span>
-                    <span className="details-into price-modal">
-                      {car.price}€/Dita
-                    </span>
-                  </p>
-                </div>
+                <p>
+                  <span>Viti: </span>
+                  <span className="details-into">{car.year}</span>
+                </p>
+                <p className="card-car-price">
+                  <span>Fillon nga: </span>
+                  <span className="details-into price-modal">
+                    {car.price}€/Dita
+                  </span>
+                </p>
               </div>
             </div>
           </div>
-
+          <p className="contact-moddal">Kontakto per rezervim:</p>
           <div className="card-contact-info">
             <a
               href="mailto:Rentacarroberti@hotmail.com"

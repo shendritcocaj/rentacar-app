@@ -1,0 +1,50 @@
+.about-us {
+  max-width: 1900px;
+  margin: 0 auto;
+  padding-top: 6rem;
+  padding-bottom: 15rem;
+}
+
+.about-title {
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+  color: var(--primary-color);
+  padding-bottom: 4rem;
+  padding-top: 6rem;
+  text-align: center;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  padding-bottom: 9rem;
+}
+
+.about-bottom-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+.aboutus-title,
+.aboutus-title-1 {
+  font-size: 4rem;
+  color: var(--primary-color);
+  padding-bottom: 2rem;
+  text-align: start;
+}
+.about-content,
+.about-content-1 {
+  width: 50%;
+}
+.about-content-1 {
+  padding-left: 2rem;
+}
+
+.aboutus-text {
+  font-size: 2rem;
+  color: var(--secondary-color);
+}

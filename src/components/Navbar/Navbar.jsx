@@ -63,11 +63,22 @@ const Navbar = () => {
                 <i className="uil uil-info-circle nav-icon"></i> Informata
               </a>
             </motion.li>
+            <motion.li
+              animate={{ x: 0 }}
+              initial={{ x: -80, opacity: 0 }}
+              transition={{ duration: 0.6 }}
+              whileInView={{ opacity: 1 }}
+              className="nav-item"
+            >
+              <a href="#aboutus" className="nav-link" onClick={closeMenu}>
+                <i className="uil uil-info-circle nav-icon"></i> Per Ne
+              </a>
+            </motion.li>
 
             <motion.li
               animate={{ x: 0 }}
               initial={{ x: -80, opacity: 0 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.4 }}
               whileInView={{ opacity: 1 }}
               className="nav-item"
             >

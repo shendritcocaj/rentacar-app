@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div id="Home" className="hero-main">
       <div className="overlay"></div>
-      <p>
+      <div className="hero-main-p">
         <div className="hero-title">
           <motion.div
             initial={{ y: "-5rem", opacity: 0 }}
@@ -22,7 +22,7 @@ const Hero = () => {
             Rezervo Tani
           </a>
         </div>
-      </p>
+      </div>
     </div>
   );
 };

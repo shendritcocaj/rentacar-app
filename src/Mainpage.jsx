@@ -6,6 +6,7 @@ import Questions from "./components/Questions/Questions";
 import Contact from "./components/Contact/Contact";
 import Testimonial from "./components/Testimonials/Testimonial";
 import Footer from "./components/Footer/Footer";
+import AbouttUs from "./components/AboutUs/AbouttUs";
 
 function Mainpage() {
   return (
@@ -14,8 +15,9 @@ function Mainpage() {
       <Hero />
       <Cars />
       <Questions />
-      <Contact />
+      <AbouttUs />
       <Testimonial />
+      <Contact />
       <Footer />
     </div>
   );

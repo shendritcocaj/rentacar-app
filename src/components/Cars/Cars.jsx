@@ -57,13 +57,14 @@ const Cars = () => {
         </div>
         <div className="cars">
           {filteredCars.slice(0, visibleCars).map((car, i) => (
-            <Link
+            <div
+              key={i}
               to="#"
               onClick={() => openModal(car)}
               // className="car-details-link"
             >
               {" "}
-              <div key={i} className="car">
+              <div className="car">
                 {car.mostWanted && (
                   <div className="mostWanded">Me i kerkuari</div>
                 )}
@@ -112,15 +113,15 @@ const Cars = () => {
                     <span>{car.expenses}</span>
                   </div>
                 </div>{" "}
-                <Link
+                <div
                   to="#"
                   onClick={() => openModal(car)}
                   className="car-details-link"
                 >
                   Rezervo{" "}
-                </Link>
+                </div>
               </div>
-            </Link>
+            </div>
           ))}
         </div>
         {visibleCars < filteredCars.length && (

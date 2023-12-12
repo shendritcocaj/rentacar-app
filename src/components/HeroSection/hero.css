@@ -127,3 +127,19 @@
     padding: 1rem 2rem;
   }
 }
+
+@media (max-height: 1100px) {
+  .hero-main {
+    height: 80rem;
+  }
+}
+@media (max-height: 900px) {
+  .hero-main {
+    height: 70rem;
+  }
+}
+@media (max-height: 600px) {
+  .hero-main {
+    height: 50rem;
+  }
+}

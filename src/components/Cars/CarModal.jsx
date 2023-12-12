@@ -30,80 +30,86 @@ const CarModal = ({ isOpen, onClose, car }) => {
           &times;
         </span>
         <div className="card">
-          <div className="leftcard">
-            <div className="card-title">{car.model}</div>
-            <img src={car.images[0].url} alt={`Car `} />
-          </div>
-          <div className="card-container">
-            {" "}
-            <div className="card-info">
-              <div className="card-car-details">
-                <p>
-                  {" "}
-                  <span className="details-into car-model">{car.model}</span>
-                </p>
-                <p>
-                  <span>Motori: </span>
-                  <span className="details-into">{car.engine}</span>
-                </p>
-                <p>
-                  <span>Karburanti: </span>
-                  <span className="details-into">{car.fuel}</span>
-                </p>
-                <p>
-                  <span>Marshi: </span>
-                  <span className="details-into">{car.transmission}</span>
-                </p>
-                <p>
-                  <span>Numri i dyerve: </span>
-                  <span className="details-into">{car.doors}</span>
-                </p>
-                <p>
-                  <span>Viti: </span>
-                  <span className="details-into">{car.year}</span>
-                </p>
-                <p className="card-car-price">
-                  <span>Fillon nga: </span>
-                  <span className="details-into price-modal">
-                    {car.price}€/Dita
-                  </span>
-                </p>
+          <div className="cardtop">
+            <div className="leftcard">
+              <div className="card-title">{car.model}</div>
+              <img src={car.images[0].url} alt={`Car `} />
+            </div>
+            <div className="card-container">
+              {" "}
+              <div className="card-info">
+                <div className="card-car-details">
+                  <p>
+                    {" "}
+                    <span className="details-into car-model">{car.model}</span>
+                  </p>
+
+                  <p>
+                    <span>Motori: </span>
+                    <span className="details-into">{car.engine}</span>
+                  </p>
+                  <p>
+                    <span>Karburanti: </span>
+                    <span className="details-into">{car.fuel}</span>
+                  </p>
+
+                  <p>
+                    <span>Marshi: </span>
+                    <span className="details-into">{car.transmission}</span>
+                  </p>
+                  <p>
+                    <span>Numri i dyerve: </span>
+                    <span className="details-into">{car.doors}</span>
+                  </p>
+
+                  <p>
+                    <span>Viti: </span>
+                    <span className="details-into">{car.year}</span>
+                  </p>
+                  <p className="card-car-price">
+                    <span>Fillon nga: </span>
+                    <span className="details-into price-modal">
+                      {car.price}€/Dita
+                    </span>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="card-contact-info">
-          <a
-            href="mailto:Rentacarroberti@hotmail.com"
-            target="_blank"
-            rel="noreferrer"
-            className="card-contact-button"
-          >
-            <i className="uil uil-envelope-minus modalicon-email"></i>
-            <h3 className="card-car-icon">Email</h3>
-          </a>
 
-          <a
-            href="https://wa.me/+38349518518"
-            target="_blank"
-            rel="noreferrer"
-            className="card-contact-button "
-          >
-            <i className="uil uil-whatsapp modalicon-whatsapp"></i>
-            <h3 className="card-car-icon">Whatsapp</h3>
-          </a>
+          <div className="card-contact-info">
+            <a
+              href="mailto:Rentacarroberti@hotmail.com"
+              target="_blank"
+              rel="noreferrer"
+              className="card-contact-button"
+            >
+              <i className="uil uil-envelope-minus modalicon-email"></i>
+              <h3 className="card-car-icon">Email</h3>
+            </a>
 
-          <a
-            href="https://m.me/rentacarroberti"
-            rel="noreferrer"
-            target="_blank"
-            className="card-contact-button-messenger "
-          >
-            <i className="uil uil-facebook-messenger-alt modalicon-messenger"></i>
-            <h3 className="card-car-icon">Messenger</h3>
-          </a>
+            <a
+              href="https://wa.me/+38349518518"
+              target="_blank"
+              rel="noreferrer"
+              className="card-contact-button "
+            >
+              <i className="uil uil-whatsapp modalicon-whatsapp"></i>
+              <h3 className="card-car-icon">Whatsapp</h3>
+            </a>
+
+            <a
+              href="https://m.me/rentacarroberti"
+              rel="noreferrer"
+              target="_blank"
+              className="card-contact-button-messenger "
+            >
+              <i className="uil uil-facebook-messenger-alt modalicon-messenger"></i>
+              <h3 className="card-car-icon">Messenger</h3>
+            </a>
+          </div>
         </div>
-      </div>
+      </div>{" "}
     </div>
   );
 };

@@ -31,7 +31,7 @@ const faqs = [
 
 export default function Questions() {
   return (
-    <div>
+    <div className="ac-back">
       <Accordion data={faqs} />
     </div>
   );

@@ -1,6 +1,13 @@
+.ac-back {
+  background-image: url("../../assets/pexels-pixabay-261985.jpg");
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .accordion-section {
   padding: 10rem 5rem;
-  color: #b5b2b2;
   max-width: 1900px;
   margin: 0 auto;
 }
@@ -8,7 +15,7 @@
 .accordion-title {
   font-size: 3rem;
   letter-spacing: 0.5rem;
-  color: #000d6b;
+  color: var(--quaternary-color);
   padding-bottom: 8rem;
   text-align: center;
 }
@@ -22,29 +29,30 @@
 }
 
 .item-questions {
-  box-shadow: 0 0 10px rgba(135, 131, 131, 0.406);
+  box-shadow: 0 0 10px var(--tertiary-color);
   padding: 20px 24px;
   padding-right: 48px;
   cursor: pointer;
-  border-top: 2px solid #0d23cc;
+  border-top: 2px solid var(--primary-color);
   border-radius: 10px;
   display: grid;
   grid-template-columns: auto 1fr auto;
   column-gap: 24px;
   row-gap: 32px;
   align-items: center;
+  background-color: #163020d8;
 }
 
 .number-questions {
   font-size: 24px;
   font-weight: 500;
-  color: goldenrod;
+  color: #fff;
 }
 
 .title-questions,
 .icon-questions {
   font-size: 2.4rem;
-  color: #000d6b;
+  color: #fff;
 }
 
 .content-box-questions {
@@ -52,17 +60,17 @@
   padding-bottom: 16px;
   line-height: 1.6;
   font-size: 1.8rem;
-  color: #555;
+  color: #fff;
 }
 
 /* OPEN STATE */
 .open {
-  border-top: 4px solid #0d23cc;
+  border-top: 4px solid var(--secondary-color);
 }
 
 .open .number-questions,
 .open .title-questions {
-  color: #000d6b;
+  color: #fff;
 }
 
 @media (max-width: 40em) {

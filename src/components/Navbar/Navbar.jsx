@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import logo from "../../assets/logogold.png";
 import logo1 from "../../assets/logoroberti.png";
 import "./navbar.css";
 

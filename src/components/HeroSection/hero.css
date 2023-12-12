@@ -1,10 +1,22 @@
 .hero-main {
   position: relative;
-  height: 90rem;
-  background-image: url("../../assets/back.jpg");
+  height: 80rem;
+  background-image: url("../../assets/pexels-pixabay-261986.jpg");
+
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+}
+.hero-main p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 1900px;
+  padding-left: 30px;
+  padding-top: 30px;
 }
 
 .hero-main::before {
@@ -18,23 +30,15 @@
 }
 
 .hero-title {
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-45%, -50%);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  text-align: left;
   color: #fff;
-  font-size: 5rem;
+  font-size: 6rem;
   letter-spacing: 5px;
   font-weight: 600;
+  z-index: 9;
 }
 
 .hero-price {
-  font-size: 6rem;
+  font-size: 7rem;
 }
 
 .rezervo-veturen {
@@ -67,14 +71,6 @@
 /**************************/
 /* BELOW 944px (Tablets) */
 /**************************/
-
-@media (max-width: 59em) {
-  /* .hero-title-top,
-  .roberti {
-    padding-bottom: 3rem;
-    letter-spacing: 2px;
-  } */
-}
 
 /**************************/
 /* BELOW 704px (Smaller tablets) */

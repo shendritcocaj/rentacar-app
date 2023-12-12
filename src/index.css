@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #163020;
+  --secondary-color: #304d30;
+  --tertiary-color: #b6c4b6;
+  --quaternary-color: #eef0e5;
+  --hover-text: goldenrod;
+}
+
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
@@ -25,7 +33,7 @@ html {
 }
 /* background color  #efebeb; */
 body {
-  background-color: #fff;
+  background-color: #eef0e5;
   font-family: "Poppins", sans-serif;
 }
 

@@ -2,7 +2,7 @@
   "cars": [
     {
       "id": 101,
-      "images": [{ "url": "/carsImages/audia4.png" }],
+      "images": [{ "url": "/Veturat/dacia-sandero.png" }],
       "brand": "Dacia",
       "model": "Dacia Sandero",
       "doors": 4,
@@ -17,7 +17,7 @@
     },
     {
       "id": 102,
-      "images": [{ "url": "/carsImages/skodafabia.png" }],
+      "images": [{ "url": "/Veturat/skoda-fabia.png" }],
       "brand": "Skoda",
       "model": "Skoda Fabia",
       "doors": 4,
@@ -32,7 +32,7 @@
     },
     {
       "id": 103,
-      "images": [{ "url": "/carsImages/opelcorsa.png" }],
+      "images": [{ "url": "/Veturat/opel-corsa.png" }],
       "brand": "Opel",
       "model": "Opel Corsa",
       "doors": 4,
@@ -47,7 +47,7 @@
     },
     {
       "id": 104,
-      "images": [{ "url": "/carsImages/audia4.png" }],
+      "images": [{ "url": "/Veturat/ford-fiesta.png" }],
       "brand": "Ford",
       "model": "Ford Fiesta",
       "doors": 4,
@@ -62,7 +62,7 @@
     },
     {
       "id": 105,
-      "images": [{ "url": "/carsImages/audia4.png" }],
+      "images": [{ "url": "/Veturat/suzuki-belano.png" }],
       "brand": "Suzuki",
       "model": "Suzuki Baleno",
       "doors": 4,
@@ -77,7 +77,7 @@
     },
     {
       "id": 106,
-      "images": [{ "url": "/carsImages/audia4.png" }],
+      "images": [{ "url": "/Veturat/Citroen-elysee.png" }],
       "brand": "Citroen",
       "model": "Citroen Elyse",
       "doors": 4,
@@ -92,7 +92,7 @@
     },
     {
       "id": 107,
-      "images": [{ "url": "/carsImages/audia4.png" }],
+      "images": [{ "url": "/Veturat/Skoda-rapid.png" }],
       "brand": "Skoda",
       "model": "Skoda Rapid",
       "doors": 4,
@@ -107,9 +107,9 @@
     },
     {
       "id": 108,
-      "images": [{ "url": "/carsImages/audia4.png" }],
-      "brand": "Pollo",
-      "model": "Volkswagen Pollo",
+      "images": [{ "url": "/Veturat/pollo.png" }],
+      "brand": "Volkswagen Pollo",
+      "model": "Pollo",
       "doors": 4,
       "year": 2019,
       "price": "25",
@@ -122,7 +122,7 @@
     },
     {
       "id": 109,
-      "images": [{ "url": "/carsImages/audia4.png" }],
+      "images": [{ "url": "/Veturat/golf-7-automatic.png" }],
       "brand": "Volkswagen",
       "model": "Volkswagen Golf 7",
       "doors": 4,
@@ -137,7 +137,7 @@
     },
     {
       "id": 110,
-      "images": [{ "url": "/carsImages/audia4.png" }],
+      "images": [{ "url": "/Veturat/golf-7.png" }],
       "brand": "Volkswagen",
       "model": "Volkswagen Golf 7",
       "doors": 4,
@@ -152,7 +152,7 @@
     },
     {
       "id": 111,
-      "images": [{ "url": "/carsImages/audia4.png" }],
+      "images": [{ "url": "/Veturat/skoda-scala.png" }],
       "brand": "Skoda",
       "model": "Skoda Scala",
       "doors": 4,
@@ -167,7 +167,7 @@
     },
     {
       "id": 112,
-      "images": [{ "url": "/carsImages/audia4.png" }],
+      "images": [{ "url": "/Veturat/Renault-captur.png" }],
       "brand": "Renault",
       "model": "Renault Captur",
       "doors": 4,
@@ -182,7 +182,7 @@
     },
     {
       "id": 113,
-      "images": [{ "url": "/carsImages/audia4.png" }],
+      "images": [{ "url": "/Veturat/passat-b8.png" }],
       "brand": "Volkswagen",
       "model": "Volkswagen Pasat B8",
       "doors": 4,
@@ -197,7 +197,7 @@
     },
     {
       "id": 114,
-      "images": [{ "url": "/carsImages/audia4.png" }],
+      "images": [{ "url": "/Veturat/Skoda-karoq.png" }],
       "brand": "Skoda",
       "model": "Skoda Karoq",
       "doors": 4,
@@ -212,7 +212,7 @@
     },
     {
       "id": 115,
-      "images": [{ "url": "/carsImages/audia4.png" }],
+      "images": [{ "url": "/Veturat/Suzuki-vitara.png" }],
       "brand": "Suzuki",
       "model": "Suzuki Vitara",
       "doors": 4,
@@ -227,7 +227,7 @@
     },
     {
       "id": 116,
-      "images": [{ "url": "/carsImages/audia4.png" }],
+      "images": [{ "url": "/Veturat/Audi-a4.png" }],
       "brand": "Audi",
       "model": "Audi A4",
       "doors": 4,
@@ -242,7 +242,7 @@
     },
     {
       "id": 117,
-      "images": [{ "url": "/carsImages/audia4.png" }],
+      "images": [{ "url": "/Veturat/mercedes-cklas.png" }],
       "brand": "Mercdes",
       "model": "Mercedes C klase",
       "doors": 4,
@@ -257,7 +257,7 @@
     },
     {
       "id": 118,
-      "images": [{ "url": "/carsImages/audia4.png" }],
+      "images": [{ "url": "/Veturat/Tiguan.png" }],
       "brand": "Volkswagen",
       "model": "Volkswagen Tiguan",
       "doors": 4,
@@ -272,7 +272,7 @@
     },
     {
       "id": 119,
-      "images": [{ "url": "/carsImages/audia4.png" }],
+      "images": [{ "url": "/Veturat/audi-q7.png" }],
       "brand": "Audi",
       "model": "Audi Q7",
       "doors": 4,
@@ -287,7 +287,7 @@
     },
     {
       "id": 120,
-      "images": [{ "url": "/carsImages/audia4.png" }],
+      "images": [{ "url": "/Veturat/touareg.png" }],
       "brand": "Volkswagen",
       "model": "Volkswagen Touareg",
       "doors": 4,
@@ -302,12 +302,12 @@
     },
     {
       "id": 121,
-      "images": [{ "url": "/carsImages/audia4.png" }],
+      "images": [{ "url": "/Veturat/bmw-x5.png" }],
       "brand": "BMW",
       "model": "BMW X5",
       "doors": 4,
       "year": 2019,
-      "price": "90",
+      "price": "100",
       "transmission": "Automatic",
       "expenses": "8L/100km",
       "engine": "2.7",
@@ -317,7 +317,7 @@
     },
     {
       "id": 122,
-      "images": [{ "url": "/carsImages/audia4.png" }],
+      "images": [{ "url": "/Veturat/mercedes-vito.png" }],
       "brand": "Mercdes",
       "model": "Mercedes Vito",
       "doors": 4,

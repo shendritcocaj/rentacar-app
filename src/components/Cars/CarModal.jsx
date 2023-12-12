@@ -3,13 +3,13 @@ import "./card.css";
 const CarModal = ({ isOpen, onClose, car }) => {
   useEffect(() => {
     if (isOpen) {
-      document.body.style.overflow = "hidden"; // Prevent scrolling when modal is open
+      document.body.style.overflow = "hidden";
     } else {
-      document.body.style.overflow = "auto"; // Allow scrolling when modal is closed
+      document.body.style.overflow = "auto";
     }
 
     return () => {
-      document.body.style.overflow = "auto"; // Ensure scrolling is restored when the component unmounts
+      document.body.style.overflow = "auto";
     };
   }, [isOpen]);
 

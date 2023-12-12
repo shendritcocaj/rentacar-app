@@ -2,7 +2,7 @@
   z-index: 999;
   color: white;
   position: absolute;
-  background-color: #000c6b;
+  background-color: var(--primary-color);
   position: fixed;
   top: 0;
   left: 0;
@@ -95,7 +95,7 @@
     bottom: -100%;
     left: 0;
     width: 100%;
-    background-color: #000c6b;
+    background-color: var(--primary-color);
     padding: 2rem 1.5rem 4rem;
     border-radius: 2rem 2rem 0 0;
     transition: 0.3s;

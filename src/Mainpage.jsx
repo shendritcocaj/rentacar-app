@@ -14,8 +14,8 @@ function Mainpage() {
       <Hero />
       <Cars />
       <Questions />
-      <Testimonial />
       <Contact />
+      <Testimonial />
       <Footer />
     </div>
   );

@@ -29,6 +29,11 @@
   padding: 5rem;
 }
 
+.content-wrapper img,
+.about-bottom-text img {
+  width: 50%;
+}
+
 .aboutus-title,
 .aboutus-title-1 {
   font-size: 4rem;
@@ -40,6 +45,7 @@
 .about-content-1 {
   width: 50%;
 }
+
 .about-content-1 {
   padding-left: 2rem;
 }
@@ -47,4 +53,61 @@
 .aboutus-text {
   font-size: 2rem;
   color: var(--secondary-color);
+}
+
+@media only screen and (max-width: 1200px) {
+  .aboutus-title,
+  .aboutus-title-1 {
+    font-size: 3rem;
+  }
+
+  .aboutus-text {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .aboutus-title,
+  .aboutus-title-1 {
+    font-size: 2.5rem;
+  }
+
+  .aboutus-text {
+    font-size: 1.6rem;
+  }
+}
+@media only screen and (max-width: 7680px) {
+  .content-wrapper,
+  .about-bottom-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  .about-bottom-text {
+    flex-direction: column-reverse;
+  }
+
+  .about-content,
+  .about-content-1 {
+    width: 80%;
+  }
+
+  .content-wrapper img,
+  .about-bottom-text img {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 7680px) {
+  .about-content,
+  .about-content-1 {
+    width: 95%;
+  }
+
+  .content-wrapper img,
+  .about-bottom-text img {
+    width: 96%;
+  }
 }

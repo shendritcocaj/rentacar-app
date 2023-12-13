@@ -15,7 +15,7 @@
   background-color: var(--quaternary-color);
   border-radius: 8px;
   width: 1400px;
-  max-height: 100vh;
+  max-height: 90vh;
   overflow-y: auto;
   position: relative;
 }
@@ -178,6 +178,9 @@
   }
 }
 @media only screen and (max-width: 700px) {
+  .modal-content {
+    height: 80vh;
+  }
   .card-container {
     width: 100%;
   }

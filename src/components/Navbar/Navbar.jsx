@@ -14,19 +14,18 @@ const Navbar = () => {
     <header className="header">
       <motion.nav className="nav">
         <div className="logo-wrapper">
-          <motion.img
-            animate={{ x: 0 }}
-            initial={{ x: -80, opacity: 0 }}
-            exit={{ x: 200, opacity: 1 }}
-            transition={{ duration: 1.6 }}
-            whileInView={{ opacity: 1 }}
-            className="nav-logo"
-            src={logo1}
-            alt="logo"
-          ></motion.img>
-          {/* <a href="#" className="logo-text">
-            <img src={logo} alt="" />
-          </a> */}
+          <a href="#" className="logo-text">
+            <motion.img
+              animate={{ x: 0 }}
+              initial={{ x: -80, opacity: 0 }}
+              exit={{ x: 200, opacity: 1 }}
+              transition={{ duration: 1.6 }}
+              whileInView={{ opacity: 1 }}
+              className="nav-logo"
+              src={logo1}
+              alt="logo"
+            ></motion.img>
+          </a>
         </div>
         <div className={menu ? "nav-menu show-menu" : "nav-menu"}>
           <ul className="nav-list">

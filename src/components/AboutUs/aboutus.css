@@ -10,7 +10,6 @@
   letter-spacing: 0.5rem;
   color: var(--primary-color);
   padding-bottom: 4rem;
-  padding-top: 6rem;
   text-align: center;
 }
 
@@ -31,7 +30,7 @@
 
 .content-wrapper img,
 .about-bottom-text img {
-  width: 50%;
+  width: 50% !important;
 }
 
 .aboutus-title,
@@ -43,7 +42,7 @@
 }
 .about-content,
 .about-content-1 {
-  width: 50%;
+  width: 50% !important;
 }
 
 .about-content-1 {
@@ -74,8 +73,12 @@
   .aboutus-text {
     font-size: 1.6rem;
   }
+  /* .content-wrapper img,
+  .about-bottom-text img {
+    width: 50% !important;
+  } */
 }
-@media only screen and (max-width: 7680px) {
+@media only screen and (max-width: 768px) {
   .content-wrapper,
   .about-bottom-text {
     display: flex;
@@ -91,23 +94,26 @@
 
   .about-content,
   .about-content-1 {
-    width: 80%;
+    width: 80% !important;
+  }
+  .about-content-1 {
+    padding-left: 0px;
   }
 
   .content-wrapper img,
   .about-bottom-text img {
-    width: 80%;
+    width: 80% !important;
   }
 }
 
-@media only screen and (max-width: 7680px) {
+@media only screen and (max-width: 420px) {
   .about-content,
   .about-content-1 {
-    width: 95%;
+    width: 100% !important;
   }
 
   .content-wrapper img,
   .about-bottom-text img {
-    width: 96%;
+    width: 100% !important;
   }
 }

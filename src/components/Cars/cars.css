@@ -36,11 +36,12 @@
   cursor: pointer;
   width: 13rem;
   text-align: center;
+  border: 2px solid var(--secondary-color);
 }
 
 .expenses:hover {
-  background-color: var(--primary-color);
-  color: #fff;
+  background-color: transparent;
+  color: var(--primary-color);
 }
 
 /* cards */

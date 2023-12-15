@@ -10,9 +10,7 @@
   height: 8rem;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  box-shadow: rgba(255, 255, 255, 0.29) 0px 10px 30px -5px;
 }
-
 .nav {
   max-width: 1900px;
   margin: 0 auto;
@@ -20,6 +18,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 5rem;
 }
 
 .nav-logo {
@@ -55,6 +54,9 @@
   display: none;
 }
 
+.nav-item.active {
+  color: goldenrod;
+}
 /* ============BREAKPOINTS================= */
 
 @media screen and (max-width: 1900px) {
@@ -153,3 +155,5 @@
     display: block;
   }
 }
+
+/* import carsData from "../../../data/db.json"; */

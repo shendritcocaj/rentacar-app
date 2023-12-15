@@ -1,25 +1,25 @@
 import React from "react";
 import "./aboutus.css";
-import aboutimg from "../../../public/aboutimg.png";
-import aboutimg1 from "../../../public/mercedes-cklas.png";
+import aboutimg from "/aboutimg/aboutimg.png";
+import aboutimg1 from "/aboutimg/mercedes-cklas.png";
 
 const AbouttUs = () => {
   return (
     <div id="aboutus" className="about-us">
-      <p className="about-title">Per Ne</p>
+      <p className="about-title">Për Kompaninë</p>
       <div className="content-wrapper">
         <div className="about-content">
-          <p className="aboutus-title">Mirë se vini Rent a Car te ROBERTI!</p>
+          <p className="aboutus-title">Rent a Car ROBERTI!</p>
           <p className="aboutus-text">
-            Faleminderit që vizituat faqen tonë, ku ofrojmë shërbime të
-            shkëlqyera të 'Rent a Car' nën emrin ROBERTI. Ne kemi një pasion për
-            udhëtimin dhe synojmë të bëjmë këtë përvojë tërheqëse dhe lehtë për
-            klientët tanë të nderuar në të gjithë rajonin. ROBERTI është një
-            kompani e specializuar në jomarrëveshje makinash, e krijuar me
-            qëllim që të ofrojë zgjidhje cilësore dhe efikase për nevojat e
-            udhëtuesve tanë. Flitet për një flotë të përzgjedhur me kujdes të
-            makinave të reja dhe të mirëmbajtura që sigurojnë një udhëtim të
-            sigurt dhe të këndshëm.
+            Kompania jonë ofron shërbime të shkëlqyera të veturave me qera nën
+            emrin Rent a Car ROBERTI. Në kemi një pasion për udhëtimin dhe
+            synojmë të bëjmë këtë përvojë tërheqëse dhe të lehtë për klientët
+            tanë të nderuar në të gjithë rajonin. ROBERTI është një kompani e
+            specializuar në marrëveshje për makina me qera, e krijuar me qëllim
+            që të ofrojë zgjidhje cilësore dhe efikase për nevojat e klienteve
+            tanë. Flitet për një flotë të përzgjedhur me kujdes të makinave të
+            reja dhe të mirëmbajtura që sigurojnë një udhëtim të sigurt dhe të
+            këndshëm me veturat tona.
           </p>
         </div>
         <img src={aboutimg} alt="a" />
@@ -27,7 +27,7 @@ const AbouttUs = () => {
       <div className="about-bottom-text">
         <img src={aboutimg1} alt="a" />
         <div className="about-content-1">
-          <p className="aboutus-title-1">Çfarë na dallon nga te tjeret?</p>
+          <p className="aboutus-title-1">Çfarë na dallon nga të tjerët?</p>
           <p className="aboutus-text">
             Çfarë na dallon është përkushtimi ndaj cilësisë dhe shërbimit të
             shkëlqyeshëm ndaj klientëve tanë. Me një ekip të përkushtuar dhe

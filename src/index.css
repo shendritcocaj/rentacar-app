@@ -88,6 +88,11 @@ input {
   html {
     font-size: 56%;
   }
+
+  .scroll-position {
+    position: relative;
+    top: 0rem;
+  }
 }
 
 /**************************/

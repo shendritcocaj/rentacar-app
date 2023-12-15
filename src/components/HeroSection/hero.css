@@ -2,14 +2,18 @@
   position: relative;
   height: 80rem;
   background-image: url("../../assets/pexels-pixabay-261986.jpg");
-  z-index: -2;
+  z-index: 1;
   overflow: hidden;
+  -webkit-background-size: cover;
+  --moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   display: flex;
   justify-content: center;
 }
+
 .hero-main-p {
   display: flex;
   justify-content: flex-start;
@@ -45,22 +49,25 @@
 }
 
 .rezervo-veturen {
+  position: relative;
   font-size: 2.3rem;
   margin-top: 5rem;
   padding: 1.2rem 4rem;
   background-color: #fff;
   border-radius: 5px;
-  color: #000d6b;
+  color: green;
   transition: 0.3s;
   font-weight: bold;
   letter-spacing: 5px;
   cursor: pointer;
-  z-index: 1;
+  border: 2px solid green;
+  width: fit-content;
 }
 
 .rezervo-veturen:hover {
   transform: scale(1.02);
-  background-color: goldenrod;
+  background-color: var(--secondary-color);
+  color: #fff;
 }
 
 /**************************/
@@ -73,24 +80,14 @@
 }
 
 /**************************/
-/* BELOW 944px (Tablets) */
-/**************************/
-
-/**************************/
-/* BELOW 704px (Smaller tablets) */
-/**************************/
-
-@media (max-width: 44em) {
-  /* .hero-title-top,
-  .roberti {
-    font-size: 6rem;
-  } */
-}
-
-/**************************/
 /* BELOW 544px (Phones) */
 /**************************/
 
+@media (max-width: 768px) {
+  .hero-main {
+    background-attachment: scroll;
+  }
+}
 @media (max-width: 34em) {
   .hero-main {
     position: relative;
@@ -112,6 +109,7 @@
 
   .rezervo-veturen {
     font-size: 1.8rem;
+    padding: 1rem 1rem;
   }
 }
 @media (max-width: 265px) {
@@ -124,7 +122,6 @@
 
   .rezervo-veturen {
     font-size: 1.6rem;
-    padding: 1rem 2rem;
   }
 }
 

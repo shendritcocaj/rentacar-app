@@ -4,28 +4,28 @@ import "./Questions.css";
 const faqs = [
   {
     title: "Ku operon kompania?",
-    text: "Rent a car Roberti operon ne Aeroportin Nderkombetar Adem Jashari",
+    text: "Rent a car Roberti operon në Aeroportin Ndërkombetar të Prishtinës “Adem Jashari”.",
   },
   {
     title: "Si behet rezervimi?",
-    text: "Rezervimet mund te behen online, permes e-mail adreses apo ne numrat e telefonit (viber apo whatsapp).",
+    text: "Rezervimet mund të bëhen online, përmes e-mail adreses apo në numrat e telefonit (Viber apo Whatsapp).",
   },
   {
-    title: "Cilat jane mundesite e pageses per te marre veture me qira?",
-    text: "Pagesa behet ne momentin e marrjes se vetures me cash apo cart.",
+    title: "Cilat janë mundësite e pagesës për të marrë veturë me qera?",
+    text: "Pagesa bëhet në momentin e pranimit të veturës me cash apo kartë.",
   },
   {
-    title: "Ne cilat vende mund te marrim veturen me qira?",
-    text: "Vetura mund te merret dhe te dorzohet ne zyren ne te cilen operon kompania.",
+    title: "Në cilat vende mund të marrim veturën me qera?",
+    text: "Vetura mund të merret dhe të dorzohet në zyren në të cilen operon kompania.",
   },
   {
-    title: "Dokumentet e kerkuara per te marre veture me qira?",
-    text: "Pasaport valide dhe patent shofer (minimumi 3 vjet).",
+    title: "Dokumentet e kërkuara për të marrë veturë me qera?",
+    text: "Pasaport valide dhe patent shofer (leje për ngasje automjetit).",
   },
   {
     title:
-      "Sa eshte toleranca ne kohe per te kthyer veturen e marre me qira pa paguar para shtese?",
-    text: "Toleranca eshte deri ne 3 ore pa pagese shtese.",
+      "Sa është toleranca në kohë për të kthyer veturën me qera pa paguar para shtesë?",
+    text: "Tolerance është deri në 3 orë pa pagesë shtesë.",
   },
 ];
 

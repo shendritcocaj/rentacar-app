@@ -11,6 +11,7 @@
   color: var(--primary-color);
   padding-bottom: 4rem;
   text-align: center;
+  padding-top: 3rem;
 }
 
 .content-wrapper {
@@ -57,11 +58,11 @@
 @media only screen and (max-width: 1200px) {
   .aboutus-title,
   .aboutus-title-1 {
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
 
   .aboutus-text {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 }
 @media only screen and (max-width: 1000px) {
@@ -71,7 +72,7 @@
   }
 
   .aboutus-text {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   /* .content-wrapper img,
   .about-bottom-text img {
@@ -94,7 +95,7 @@
 
   .about-content,
   .about-content-1 {
-    width: 80% !important;
+    width: 100% !important;
   }
   .about-content-1 {
     padding-left: 0px;
@@ -102,18 +103,26 @@
 
   .content-wrapper img,
   .about-bottom-text img {
-    width: 80% !important;
+    width: 100% !important;
+  }
+
+  .aboutus-title,
+  .aboutus-title-1 {
+    font-size: 3rem;
+  }
+
+  .aboutus-text {
+    font-size: 1.8rem;
   }
 }
 
 @media only screen and (max-width: 420px) {
-  .about-content,
-  .about-content-1 {
-    width: 100% !important;
+  .aboutus-title,
+  .aboutus-title-1 {
+    font-size: 2.5rem;
   }
 
-  .content-wrapper img,
-  .about-bottom-text img {
-    width: 100% !important;
+  .aboutus-text {
+    font-size: 1.6rem;
   }
 }

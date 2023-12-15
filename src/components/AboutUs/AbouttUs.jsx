@@ -6,7 +6,9 @@ import aboutimg1 from "/aboutimg/mercedes-cklas.png";
 const AbouttUs = () => {
   return (
     <div id="aboutus" className="about-us">
-      <p className="about-title">Për Kompaninë</p>
+      <p className="about-title">
+        <span>Për</span> <span>Kompaninë</span>
+      </p>
       <div className="content-wrapper">
         <div className="about-content">
           <p className="aboutus-title">Rent a Car ROBERTI!</p>

@@ -292,7 +292,7 @@
   color: #999;
 }
 
-@media only screen and (max-width: 1420px) {
+@media only screen and (max-width: 1450px) {
   .cars {
     justify-content: space-around;
   }
@@ -301,6 +301,35 @@
     justify-content: center;
   }
   .cars-filters-brand {
+    justify-content: space-between;
+  }
+
+  .cars.align-start {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 878px) {
+  .cars-filters {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .price-filters {
+    display: flex;
+    flex-direction: column;
+  }
+  .price-expenses {
+    width: 40rem;
+  }
+  .expenses {
+    width: 18rem;
+  }
+  .cars-filters {
+    width: 40rem;
+    margin: 0 auto;
+  }
+  .cars-filter-brand {
     justify-content: space-between;
   }
 }
@@ -333,11 +362,40 @@
   .pagination {
     gap: 2rem;
   }
+
+  .cars-filters {
+    width: 45rem;
+    margin: 0 auto;
+  }
+
+  .expenses {
+    width: 21rem;
+  }
+  .price-expenses {
+    width: 45rem;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .price-filters {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 430px) {
   .car {
     width: 35rem !important;
     margin: 0 auto !important;
+  }
+  .price-expenses {
+    width: 35rem;
+  }
+  .cars-filters {
+    width: 35rem;
+    margin: 0 auto;
+  }
+
+  .expenses {
+    width: 16rem;
   }
 }
 @media only screen and (max-width: 330px) {
@@ -345,9 +403,35 @@
     width: 28rem !important;
     margin: 0 auto !important;
   }
+  .price-expenses {
+    width: 28rem;
+  }
+
+  .cars-filters {
+    width: 28rem;
+    margin: 0 auto;
+  }
+
+  .expenses {
+    width: 13rem;
+  }
 }
 @media only screen and (max-width: 260px) {
+  .car {
+    width: 100% !important;
+  }
+
+  .cars-filters {
+    width: 20rem;
+    margin: 0 auto;
+  }
+  .price-expenses,
   .expenses {
-    width: 100%;
+    width: 20rem;
+  }
+
+  .cars-filter-brand {
+    width: 20rem;
+    margin: 0 auto;
   }
 }

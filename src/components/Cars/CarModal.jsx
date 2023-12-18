@@ -77,7 +77,7 @@ const CarModal = ({ isOpen, onClose, car }) => {
           <p className="contact-moddal">Kontakto per rezervim:</p>
           <div className="card-contact-info">
             <a
-              href="mailto:Rentacarroberti@hotmail.com"
+              href="mailto:rentacar.roberti@gmail.com"
               target="_blank"
               rel="noreferrer"
               className="card-contact-button"

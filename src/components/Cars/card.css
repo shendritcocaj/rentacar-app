@@ -145,7 +145,7 @@
 }
 
 .card-car-icon {
-  color: #000d6b;
+  color: var(--primary-color);
   font-weight: 500;
   font-size: 1.8rem;
 }

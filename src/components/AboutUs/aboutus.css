@@ -6,7 +6,7 @@
 }
 
 .about-title {
-  font-size: 4rem;
+  font-size: 3.5rem;
   letter-spacing: 0.5rem;
   color: var(--primary-color);
   padding-bottom: 4rem;
@@ -36,7 +36,7 @@
 
 .aboutus-title,
 .aboutus-title-1 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: var(--primary-color);
   padding-bottom: 2rem;
   text-align: start;
@@ -51,7 +51,7 @@
 }
 
 .aboutus-text {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: var(--secondary-color);
 }
 

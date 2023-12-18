@@ -10,7 +10,7 @@ const contactInfo = () => {
         <i className="uil uil-envelope-minus"></i>
         <h3 className="contact-card-title">Email</h3>
         <span className="contact-card-data mail">
-          rentacarroberti@hotmail.com
+          rentacar.roberti@gmail.com
         </span>
       </a>
 

@@ -2,7 +2,12 @@
   "cars": [
     {
       "id": 101,
-      "images": [{ "url": "/Veturat/opel-corsa.png" }],
+      "images": [
+        { "url": "/Veturat/opel-corsa.png" },
+        {
+          "url": "/Veturat/dacia-sandero.png"
+        }
+      ],
       "brand": "Opel",
       "model": "Opel Corsa",
       "doors": 5,
@@ -17,7 +22,12 @@
     },
     {
       "id": 102,
-      "images": [{ "url": "/Veturat/Audi-a4.png" }],
+      "images": [
+        { "url": "/Veturat/Audi-a4.png" },
+        {
+          "url": "/Veturat/dacia-sandero.png"
+        }
+      ],
       "brand": "Audi",
       "model": "Audi A4",
       "doors": 5,
@@ -32,7 +42,12 @@
     },
     {
       "id": 133,
-      "images": [{ "url": "/Veturat/ford-fiesta.png" }],
+      "images": [
+        { "url": "/Veturat/ford-fiesta.png" },
+        {
+          "url": "/Veturat/dacia-sandero.png"
+        }
+      ],
       "brand": "Ford",
       "model": "Ford Fiesta",
       "doors": 5,
@@ -47,7 +62,12 @@
     },
     {
       "id": 104,
-      "images": [{ "url": "/Veturat/suzuki-belano.png" }],
+      "images": [
+        { "url": "/Veturat/suzuki-belano.png" },
+        {
+          "url": "/Veturat/dacia-sandero.png"
+        }
+      ],
       "brand": "Suzuki",
       "model": "Suzuki Baleno",
       "doors": 5,
@@ -62,7 +82,12 @@
     },
     {
       "id": 105,
-      "images": [{ "url": "/Veturat/golf-7-automatic.png" }],
+      "images": [
+        { "url": "/Veturat/golf-7-automatic.png" },
+        {
+          "url": "/Veturat/dacia-sandero.png"
+        }
+      ],
       "brand": "Volkswagen",
       "model": "Volkswagen Golf 7",
       "doors": 5,
@@ -77,7 +102,12 @@
     },
     {
       "id": 106,
-      "images": [{ "url": "/Veturat/Citroen-elysee.png" }],
+      "images": [
+        { "url": "/Veturat/Citroen-elysee.png" },
+        {
+          "url": "/Veturat/dacia-sandero.png"
+        }
+      ],
       "brand": "Citroen",
       "model": "Citroen Elyse",
       "doors": 5,
@@ -93,7 +123,12 @@
 
     {
       "id": 107,
-      "images": [{ "url": "/Veturat/dacia-sandero.png" }],
+      "images": [
+        { "url": "/Veturat/dacia-sandero.png" },
+        {
+          "url": "/Veturat/dacia-sandero.png"
+        }
+      ],
       "brand": "Dacia",
       "model": "Dacia Sandero",
       "doors": 5,
@@ -108,7 +143,12 @@
     },
     {
       "id": 108,
-      "images": [{ "url": "/Veturat/skoda-fabia.png" }],
+      "images": [
+        { "url": "/Veturat/skoda-fabia.png" },
+        {
+          "url": "/Veturat/dacia-sandero.png"
+        }
+      ],
       "brand": "Skoda",
       "model": "Skoda Fabia",
       "doors": 5,
@@ -124,7 +164,12 @@
 
     {
       "id": 109,
-      "images": [{ "url": "/Veturat/skoda-scala.png" }],
+      "images": [
+        { "url": "/Veturat/skoda-scala.png" },
+        {
+          "url": "/Veturat/dacia-sandero.png"
+        }
+      ],
       "brand": "Skoda",
       "model": "Skoda Scala",
       "doors": 5,
@@ -139,7 +184,12 @@
     },
     {
       "id": 110,
-      "images": [{ "url": "/Veturat/Renault-captur.png" }],
+      "images": [
+        { "url": "/Veturat/Renault-captur.png" },
+        {
+          "url": "/Veturat/dacia-sandero.png"
+        }
+      ],
       "brand": "Renault",
       "model": "Renault Captur",
       "doors": 5,
@@ -154,7 +204,12 @@
     },
     {
       "id": 111,
-      "images": [{ "url": "/Veturat/passat-b8.png" }],
+      "images": [
+        { "url": "/Veturat/passat-b8.png" },
+        {
+          "url": "/Veturat/dacia-sandero.png"
+        }
+      ],
       "brand": "Volkswagen",
       "model": "Volkswagen Pasat B8",
       "doors": 5,
@@ -169,7 +224,12 @@
     },
     {
       "id": 112,
-      "images": [{ "url": "/Veturat/Skoda-karoq.png" }],
+      "images": [
+        { "url": "/Veturat/Skoda-karoq.png" },
+        {
+          "url": "/Veturat/dacia-sandero.png"
+        }
+      ],
       "brand": "Skoda",
       "model": "Skoda Karoq",
       "doors": 5,
@@ -184,7 +244,12 @@
     },
     {
       "id": 113,
-      "images": [{ "url": "/Veturat/golf-7.png" }],
+      "images": [
+        { "url": "/Veturat/golf-7.png" },
+        {
+          "url": "/Veturat/dacia-sandero.png"
+        }
+      ],
       "brand": "Volkswagen",
       "model": "Volkswagen Golf 7",
       "doors": 5,
@@ -199,7 +264,12 @@
     },
     {
       "id": 114,
-      "images": [{ "url": "/Veturat/Suzuki-vitara.png" }],
+      "images": [
+        { "url": "/Veturat/Suzuki-vitara.png" },
+        {
+          "url": "/Veturat/dacia-sandero.png"
+        }
+      ],
       "brand": "Suzuki",
       "model": "Suzuki Vitara",
       "doors": 5,
@@ -215,7 +285,12 @@
 
     {
       "id": 115,
-      "images": [{ "url": "/Veturat/mercedes-cklas.png" }],
+      "images": [
+        { "url": "/Veturat/mercedes-cklas.png" },
+        {
+          "url": "/Veturat/dacia-sandero.png"
+        }
+      ],
       "brand": "Mercdes",
       "model": "Mercedes C klase",
       "doors": 5,
@@ -230,7 +305,12 @@
     },
     {
       "id": 116,
-      "images": [{ "url": "/Veturat/Tiguan.png" }],
+      "images": [
+        { "url": "/Veturat/Tiguan.png" },
+        {
+          "url": "/Veturat/dacia-sandero.png"
+        }
+      ],
       "brand": "Volkswagen",
       "model": "Volkswagen Tiguan",
       "doors": 5,
@@ -245,7 +325,12 @@
     },
     {
       "id": 117,
-      "images": [{ "url": "/Veturat/Skoda-rapid.png" }],
+      "images": [
+        { "url": "/Veturat/Skoda-rapid.png" },
+        {
+          "url": "/Veturat/dacia-sandero.png"
+        }
+      ],
       "brand": "Skoda",
       "model": "Skoda Rapid",
       "doors": 5,
@@ -260,7 +345,12 @@
     },
     {
       "id": 118,
-      "images": [{ "url": "/Veturat/pollo.png" }],
+      "images": [
+        { "url": "/Veturat/pollo.png" },
+        {
+          "url": "/Veturat/dacia-sandero.png"
+        }
+      ],
       "brand": "Volkswagen Pollo",
       "model": "Pollo",
       "doors": 5,
@@ -275,7 +365,12 @@
     },
     {
       "id": 119,
-      "images": [{ "url": "/Veturat/audi-q7.png" }],
+      "images": [
+        { "url": "/Veturat/audi-q7.png" },
+        {
+          "url": "/Veturat/dacia-sandero.png"
+        }
+      ],
       "brand": "Audi",
       "model": "Audi Q7",
       "doors": 5,
@@ -290,7 +385,12 @@
     },
     {
       "id": 120,
-      "images": [{ "url": "/Veturat/bmw-x5.png" }],
+      "images": [
+        { "url": "/Veturat/bmw-x5.png" },
+        {
+          "url": "/Veturat/dacia-sandero.png"
+        }
+      ],
       "brand": "BMW",
       "model": "BMW X5",
       "doors": 5,
@@ -305,7 +405,12 @@
     },
     {
       "id": 121,
-      "images": [{ "url": "/Veturat/touareg.png" }],
+      "images": [
+        { "url": "/Veturat/touareg.png" },
+        {
+          "url": "/Veturat/dacia-sandero.png"
+        }
+      ],
       "brand": "Volkswagen",
       "model": "Volkswagen Touareg",
       "doors": 5,
@@ -321,7 +426,12 @@
 
     {
       "id": 122,
-      "images": [{ "url": "/Veturat/mercedes-vito.png" }],
+      "images": [
+        { "url": "/Veturat/mercedes-vito.png" },
+        {
+          "url": "/Veturat/dacia-sandero.png"
+        }
+      ],
       "brand": "Mercdes",
       "model": "Mercedes Vito",
       "doors": 5,
@@ -336,7 +446,12 @@
     },
     {
       "id": 142,
-      "images": [{ "url": "/Veturat/golf-8.png" }],
+      "images": [
+        { "url": "/Veturat/golf-8.png" },
+        {
+          "url": "/Veturat/dacia-sandero.png"
+        }
+      ],
       "brand": "Volkswagen",
       "model": "Volkswagen Golf 8",
       "doors": 5,

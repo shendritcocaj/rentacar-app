@@ -1,6 +1,17 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import "./card.css";
 const CarModal = ({ isOpen, onClose, car }) => {
+  const [selectedImage, setSelectedImage] = useState("");
+
+  useEffect(() => {
+    if (car && car.images && car.images.length > 0) {
+      setSelectedImage(car.images[0].url);
+    }
+  }, [car]);
+
+  const handleCardClick = (imageUrl) => {
+    setSelectedImage(imageUrl);
+  };
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = "hidden";
@@ -32,8 +43,20 @@ const CarModal = ({ isOpen, onClose, car }) => {
         <div className="card">
           <div className="cardtop">
             <div className="leftcard">
-              <div className="card-title">{car.model}</div>
-              <img src={car.images[0].url} alt={`Car `} />
+              <div className="mainImageHolder">
+                <img className="mainImage" src={selectedImage} alt={`Car`} />
+              </div>
+              <div className="image-card-slider">
+                {car.images.map((image, index) => (
+                  <img
+                    key={index}
+                    className="cardCar"
+                    src={image.url}
+                    alt={`Car`}
+                    onClick={() => handleCardClick(image.url)}
+                  />
+                ))}
+              </div>
             </div>
             <div className="card-container">
               {" "}

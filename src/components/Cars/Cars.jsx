@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import carsData from "../../../data/db.json";
 import "./cars.css";
 
@@ -8,8 +8,26 @@ const Cars = () => {
   const [selectedType, setSelectedType] = useState(null);
   const [selectedCar, setSelectedCar] = useState(null);
   const [selectedPriceFilter, setSelectedPriceFilter] = useState("lowest");
-  const carsPerPage = 8;
+  const [carsPerPage, setCarsPerPage] = useState(8);
   const [currentPage, setCurrentPage] = useState(1);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 1900 && window.innerWidth > 1400) {
+        setCarsPerPage(9);
+      } else {
+        setCarsPerPage(8);
+      }
+    };
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const handlePriceFilter = (priceFilter) => {
     setSelectedPriceFilter(priceFilter);
